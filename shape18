@@ -1,0 +1,31 @@
+
+/**
+ * Write a description of class Sides13 here.
+ *
+ * @author (your name)
+ * @version (a version number or a date)
+ */
+public class Sides18 implements Shape
+{
+    private int height;
+    private int base;
+    private String color;
+    
+    public Sides18(int height, int base, String color) {
+        this.height = height;
+        this.base = base;
+        this.color = color;
+    }
+    
+    public double getArea() {
+        return 18 * (base sqrt(2)) * cot(Math.PI/18)/4 ; 
+    }
+    
+    public double getPerimeter() {
+        return base * 18;
+    }
+    
+    public String getColor() {
+        return this.color;
+    }
+}
